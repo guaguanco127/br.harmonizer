@@ -32,7 +32,7 @@ Play harmonies on a live voice or instrument: the notes you play on a MIDI keybo
 
 **Latency:** the harmonies come out a little after your input (retune~'s analysis time), and the dry signal is not delayed. Each voice runs its own retune~ at its best quality all the time, so CPU use is constant; use fewer voices (the 8 in both poly~ boxes in the core) if needed.
 
-A Max for Live audio effect for the track your voice or instrument is on. It gets its notes from any MIDI track or MIDI port through the **MIDI From** menu, so one device does everything. All controls are Live parameters, so you can automate them or map them to a controller. There is no output gain: use Live's mixer.
+A Max for Live audio effect for the track your voice or instrument is on. It gets its notes from any MIDI track or MIDI port through the **MIDI From** menu, so one device does everything. All controls are Live parameters, so you can automate them or map them to a controller; on Push they are on one page, **Harmonizer**. There is no output gain: use Live's mixer.
 
 ### Controls
 
