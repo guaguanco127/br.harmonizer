@@ -10,12 +10,13 @@ brianriordanmusic [at] gmail [dot] com
 Repository for br.harmonizer.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.harmonizer](https://github.com/guaguanco127/br.harmonizer)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
-These files were created with Max 9.
+These files were created with Max 9. The Max for Live device needs Live 12.
 
 ## Links
 
 [About](#About)  
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.harmonizer/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP  
+[Ableton Max for Live Device](https://github.com/guaguanco127/br.harmonizer/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Live 12 Suite  
 
 ## <a name="About"></a>About
 
@@ -50,6 +51,7 @@ The input is summed to mono (or kept as left and right in Stereo) and goes throu
 | br.harmonizer.core.1.0 | The harmonizer: stereo in, MIDI notes in, stereo out |
 | br.harmonizer.voice.1.0 | One harmony voice, loaded by the core's [poly~]. Keep it in the same folder as the core |
 | _br.harmonizer.example.1.0 | Example patch: open this first. Mic in, MIDI keyboard (or click the keys), all controls |
+| br.harmonizer.1.0.amxd | Max for Live audio effect (Live 12), with a MIDI From menu; frozen, so it needs no other files |
 
 ## <a name="Credits"></a>Credits
 
