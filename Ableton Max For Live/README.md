@@ -36,7 +36,7 @@ A Max for Live audio effect for the track your voice or instrument is on. It get
 
 ### Controls
 
-**Attack, Decay, Sustain, Release:** the envelope of each harmony note, in ms (Sustain 0 to 100%). Note velocity sets each note's level. Defaults 5 ms, 5 ms, 1, 5 ms.
+**Attack, Decay, Sustain, Release:** the envelope of each harmony note, in ms (Sustain 0 to 100%). Note velocity sets each note's level. Defaults 5 ms, 5 ms, 100%, 5 ms.
 
 **Dry/Wet:** 0% = only your input, 100% = only the harmonies (equal-power crossfade). Default 50%.
 
