@@ -72,9 +72,15 @@ Copy br.harmonizer.1.0.amxd into that folder
 ## <a name="Use"></a>How To Use
 
 1. Put br.harmonizer on the audio track with your mic or instrument (monitoring on, so you hear it).
-2. Put your MIDI keyboard on a MIDI track, or plug it in as a MIDI port.
+2. Put your MIDI keyboard on a MIDI track (best: lets you record and edit the notes, see below), or pick it as a MIDI port.
 3. In br.harmonizer's **MIDI From** menu, pick that MIDI track (or port).
 4. Sing or play, and hold keys: each held key adds a harmony at that pitch.
+
+### Recording your harmonies
+
+Pick a **MIDI track** in MIDI From (not the keyboard's port) if you want to record. Arm both tracks and record: the MIDI track records the notes you play as a clip, and the audio track records your voice or instrument **dry**, because Live records a track's input before its devices. When you play the clips back, the harmonizer harmonizes the dry take again from the MIDI clip, so you can fix notes, quantize, or write a new harmony later. To print the result, freeze or resample the audio track.
+
+If you pick the keyboard's port directly, the notes go straight into the device and nothing records them.
 
 ## <a name="Credits"></a>Credits
 
